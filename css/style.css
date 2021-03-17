@@ -1,0 +1,336 @@
+    
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+}
+
+.list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    color: #212121;
+    background-color: #FFFFFF;
+    
+}
+
+:root {
+    --main-text-color: #212121;
+    --accent-color: #2196F3;
+    --title-color: #212121;
+    --dark-bg-color: #2F303A;
+    --second-bg-color: #E5E5E5;
+    --mailto-color:#757575;
+    --text-button:#FFFFFF;
+    --bg-button:#2196F3;
+    --page-portfolio:#757575;
+    --page-title-portfolio:#212121;
+    --mailto-footer:rgba(255, 255, 255, 0.6);
+    --tel-footer:rgba(255, 255, 255, 0.6);
+    }
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+  }
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    }
+
+.link.current{
+    color: var(--accent-color)   
+}
+
+.link:hover,
+.link:focus
+{
+    color: var(--accent-color);
+}
+
+.link .mailto-footer:hover{
+    color: var(--accent-color);
+}
+.link .mailto-footer:focus{
+    color: var(--accent-color);
+}
+
+.link .logo:hover{
+    color: var(--accent-color);
+}
+.link .logo:focus{
+    color: var(--accent-color);
+}
+
+.link .logo-footer:hover{
+    color: var(--accent-color);
+}
+.link .logo-footer:focus{
+    color: var(--accent-color);
+}
+
+.mailto-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
+}
+
+.link-mailto {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color);
+}
+
+.link-tel {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--mailto-color)
+}
+
+.tel-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--mailto-footer);
+}
+
+.list,
+.list-command {
+    list-style: none;    
+  }
+
+  .button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;       
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    cursor: pointer;     
+}
+
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button-portfolio:hover {
+    color: var(--text-button);
+    background-color: var(--bg-button);
+}
+
+.button-portfolio:focus {
+    color: var(--text-button);
+    background-color: var(--bg-button);
+}
+
+.title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;       
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+}
+
+
+.socials-list {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    color: var(--title-color);
+  }
+
+  .logo,
+  .logo-footer {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19x;       
+    letter-spacing: 0.03em;
+    
+  }
+
+  .logo {
+    color: var(--main-text-color);
+  }
+
+  .logo-footer {    
+    color: var( --text-button);
+  }
+
+  .logo-web {
+    color: var(--accent-color);
+}
+
+.hero {    
+    display: inline-block;
+    background: #2F303A;
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+background: #2F303A;
+}
+
+.title-hero {
+    display: inline-block;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+     
+}
+
+.button-hero {
+    padding: 10px 32px 10px 32px;
+    margin: 350px 700px 200px 700px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;    
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;   
+    border-radius: 4px;
+    cursor: pointer;
+    min-width: 200px;
+    }
+
+.list-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+    .page-list-title {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    .page-title {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    .title-list-command {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;        
+        letter-spacing: 0.03em;
+        color: #212121;
+    }
+
+    .page-list-command {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        color: #757575;
+    }
+
+    .footer {
+        background-color: #2F303A;
+    }
+
+    .page-adress {
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;        
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
+    .link .mailto-footer {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;        
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .link .tel-footer {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.71;      
+        letter-spacing: 0.03em;
+        color: var(--link-mailto-footer);
+    }
+
+    .page-title-portfolio {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: var(--page-title-portfolio);
+    }
+
+    .page-portfolio {        
+        font-size: 16px;
+        line-height: 1.87;        
+        letter-spacing: 0.03em;
+        color: var(--page-portfolio);
+    }
+
+    
+    
+
+
+
+
+
+  
