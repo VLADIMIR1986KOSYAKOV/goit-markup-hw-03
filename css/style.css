@@ -21,7 +21,8 @@ p {
 .list {
 	list-style: none;
 	padding-left: 0;
-	margin: 0;
+	margin-top: 0;
+    margin-bottom: 0;
 }
 
 body {
@@ -32,6 +33,11 @@ body {
     color: #212121;
     background-color: #FFFFFF;
     
+}
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 :root {
@@ -59,6 +65,11 @@ body {
     width: 1px !important;
     overflow: hidden;
   }
+
+  .main-content {
+      width: 1600px;
+  }
+  
 
 .link {
     text-decoration: none;
@@ -104,6 +115,7 @@ body {
 }
 
 .link-mailto {
+    margin-right: 50px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -189,6 +201,7 @@ body {
   }
 
   .logo {
+    margin-right: 93px;
     color: var(--main-text-color);
   }
 
@@ -201,19 +214,29 @@ body {
 }
 
 .hero {    
-    display: inline-block;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
     background: #2F303A;
-    width: 1600px;
-    height: 600px;    
+    width: 1600px;      
     background: #2F303A;
+    align-items: center;
 }
 
+.title-section {
+    padding-bottom: 280px;
+    padding-top: 200px;
+    padding-left: 46px;
+    padding-right: 46px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
 .title-hero {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -227,8 +250,7 @@ body {
 }
 
 .button-hero {
-    display: inline-block;
-    margin: 350px 700px 200px 700px;
+    margin-left: 200px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;    
@@ -327,13 +349,45 @@ body {
     }
 
     .page-header {
+        display: flex;
+        align-items: center;
         width: 1600px;
-        background-color: tomato;
+        height: 80px;
+        background-color: #FFFFFF;
         
     }
 
-    co
+    .container {
+        display: flex;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        align-items: center;       
+    }
 
+    .navigation {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .container-list {
+        display: inline-flex;
+        margin-left: auto;
+                
+    }
+
+    .logo {
+        align-items: center; 
+    }
+
+   
+    .container-item {
+        margin-right: 50px;
+    }
+    
     
     
 
