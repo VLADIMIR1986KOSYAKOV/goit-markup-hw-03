@@ -263,7 +263,7 @@ body {
         
     }
 
-.list-title {
+    .list-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
@@ -364,7 +364,8 @@ body {
         margin-left: auto;
         padding-left: 15px;
         padding-right: 15px;
-        align-items: center;       
+        align-items: center;
+              
     }
 
     .navigation {
@@ -374,7 +375,7 @@ body {
     }
 
     .container-list {
-        display: inline-flex;
+        display: flex;
         margin-left: auto;
                 
     }
