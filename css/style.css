@@ -16,6 +16,7 @@ h5,
 h6,
 p {
 	margin-top: 0;
+    margin-bottom: 0;
 }
 
 .list {
@@ -38,7 +39,11 @@ body {
     display: block;
     max-width: 100%;
     height: auto;
-}
+    }
+
+    address {
+        font-style: normal;
+    }
 
 :root {
     --main-text-color: #212121;
@@ -251,6 +256,8 @@ body {
 
 .button-hero {
     margin-left: 200px;
+    margin-top: 40px;
+    padding: 10px 32px 10px 32px;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;    
@@ -281,6 +288,10 @@ body {
     }
 
     .page-title {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        width: 380px;
         font-weight: bold;
         font-size: 36px;
         line-height: 1.16;
@@ -289,6 +300,7 @@ body {
     }
 
     .title-list-command {
+        margin-top: 30px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;        
@@ -297,6 +309,7 @@ body {
     }
 
     .page-list-command {
+        margin-bottom: 30px;
         font-weight: normal;
         font-size: 16px;
         line-height: 1.18;
@@ -306,9 +319,11 @@ body {
 
     .footer {
         background-color: #2F303A;
+        width: 1600px;
     }
 
     .page-adress {
+        margin-bottom: 9px;
         font-weight: normal;
         font-style: normal;
         font-size: 14px;
@@ -317,7 +332,7 @@ body {
         color: #FFFFFF;
     }
 
-    .link .mailto-footer {
+    .link .link-mailto {      
         font-weight: normal;
         font-size: 14px;
         line-height: 1.71;        
@@ -387,6 +402,101 @@ body {
    
     .container-item {
         margin-right: 50px;
+    }
+
+    .list-mark {
+        display: flex;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .mark-item {
+        width: 270px;        
+    }
+
+    .list-mark .mark-item +.mark-item {
+        margin-left: 30px;
+    }
+
+    .section-mark {
+        margin-bottom: 94px;
+    }
+
+    .list-work {
+        display: flex;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .work-item {
+        width: 370px;
+    }
+
+    .list-work .work-item +.work-item {
+        margin-left: 30px;
+    }
+
+    .container-mark-work {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        background-color: #E5E5E5;
+    }
+
+    .container-teem {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        background-color: #F5F4FA;
+    }
+
+    .list-command {
+        display: flex;
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .command-item {
+        width: 270px;
+        border: 1px solid #000000;
+    }
+
+    .list-command .command-item +.command-item {
+        margin-left: 30px;
+    }
+
+    .title-list-command,
+    .page-list-command {
+        text-align: center;
+    }
+
+    .page-list-command {
+        margin-top: 10px;
+    }
+
+    .container-footer {
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 60px 0;
+    }
+
+    .link-footer.link {
+        margin-bottom: 20px;
+    }
+
+    .adress-nav {
+        margin-top: 20px;
+    }
+    address.link-mailto {
+        font-style: normal;        
+    }    
+
+    .blok {
+        display: block;
+        margin-top: 9px;
     }
     
     
