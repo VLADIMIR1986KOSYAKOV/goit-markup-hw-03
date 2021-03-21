@@ -71,11 +71,6 @@ body {
     overflow: hidden;
   }
 
-  .main-content {
-      width: 1600px;
-  }
-  
-
 .link {
     text-decoration: none;
     color: inherit;
@@ -156,6 +151,7 @@ body {
 }
 
 .button-portfolio {
+    padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;    
@@ -320,8 +316,7 @@ body {
 
     .footer {
         background-color: #2F303A;
-        width: 1600px;
-    }
+        }
 
     .page-adress {
         margin-bottom: 9px;
@@ -367,10 +362,10 @@ body {
     .page-header {
         display: flex;
         align-items: center;
-        width: 1600px;
-        height: 80px;
+        padding-top: 24px;
+        padding-bottom: 25px;
         background-color: #FFFFFF;
-        
+               
     }
 
     .container {
@@ -378,10 +373,9 @@ body {
         width: 1200px;
         margin-right: auto;
         margin-left: auto;
-        padding-left: 15px;
-        padding-right: 15px;
         align-items: center;
-              
+        border-bottom: 1px solid #ECECEC;
+                    
     }
 
     .navigation {
@@ -500,7 +494,32 @@ body {
         margin-top: 9px;
     }
     
+    /*Портфолио*/
+
+    .filter-section
     
+    
+
+    .filter {
+        display: flex;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        padding-left: 295px; 
+        padding-top: 94px;
+        
+    }
+
+    .filter-list {
+        display: flex;       
+    }
+
+    .filter-list .filter-item + .filter-item {
+        margin-left: 30px;      
+    }
+
+   
     
 
 
