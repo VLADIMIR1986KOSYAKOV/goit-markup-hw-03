@@ -563,17 +563,18 @@ body {
     .page-title-portfolio,
     .page-portfolio {
         width: 322px;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
 
     .page-title-portfolio {
-        margin-top: 20px;
-        margin-bottom: 4px;
+     margin-bottom: 4px;
     }
+    
 
-    .page-portfolio {
-        margin-bottom: 20px;
+    .portfolio-blok {
+        padding-top: 20px;
+        padding-bottom: 20px;
+          
     }
    
     
