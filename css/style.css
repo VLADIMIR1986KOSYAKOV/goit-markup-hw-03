@@ -115,11 +115,15 @@ body {
 }
 
 .link-mailto {
-    margin-right: 50px;
+    /*margin-right: 50px;*/
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--mailto-color);
+}
+
+.list-link {
+    margin-right: 50px;
 }
 
 .link-tel {
@@ -196,7 +200,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.19x;       
+    line-height: 1.19px;       
     letter-spacing: 0.03em;
     
   }
@@ -216,28 +220,23 @@ body {
 
 .hero {    
     display: flex;
+    flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-
-    background: #2F303A;
-    width: 1600px;      
-    background: #2F303A;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
 }
 
 .title-section {
-    padding-bottom: 280px;
-    padding-top: 200px;
-    padding-left: 46px;
-    padding-right: 46px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #2F303A;
 
 }
 
 
 .title-hero {
-    
+    margin-bottom: 30px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -251,8 +250,6 @@ body {
 }
 
 .button-hero {
-    margin-left: 200px;
-    margin-top: 40px;
     padding: 10px 32px 10px 32px;
     font-weight: bold;
     font-size: 16px;
@@ -297,7 +294,6 @@ body {
     }
 
     .title-list-command {
-        margin-top: 30px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.18;        
@@ -305,8 +301,13 @@ body {
         color: #212121;
     }
 
+    .title-list-blok {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
     .page-list-command {
-        margin-bottom: 30px;
         font-weight: normal;
         font-size: 16px;
         line-height: 1.18;
@@ -316,6 +317,8 @@ body {
 
     .footer {
         background-color: #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
         }
 
     .page-adress {
@@ -422,9 +425,7 @@ body {
         margin-left: 30px;
     }
 
-    .section-mark {
-        margin-bottom: 94px;
-    }
+    
 
     .list-work {
         display: flex;
@@ -444,7 +445,7 @@ body {
     .container-mark-work {
         padding-top: 94px;
         padding-bottom: 94px;
-        background-color: #E5E5E5;
+        
     }
 
     .container-teem {
@@ -462,7 +463,11 @@ body {
 
     .command-item {
         width: 270px;
-        border: 1px solid #000000;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+         0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
     }
 
     .list-command .command-item +.command-item {
@@ -482,8 +487,7 @@ body {
         width: 1200px;
         margin-right: auto;
         margin-left: auto;
-        padding: 60px 0;
-    }
+         }
 
     .link-footer.link {
         margin-bottom: 20px;
@@ -503,9 +507,7 @@ body {
     
     /*Портфолио*/
 
-    .filter-section {
-        background: #E5E5E5
-    }
+    
     
     
 
@@ -520,25 +522,30 @@ body {
         
     }
 
+    .filter-section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+
     .filter-list {
-        display: flex;       
+        display: flex; 
+        justify-content: center;
+        padding-bottom: 50px;      
     }
 
     .filter-list .filter-item + .filter-item {
         margin-left: 8px;      
     }
 
-    .cards-container {
-        width: 1200px;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 50px;
-        align-items: center;
-    }
+    
 
     .cards-list {
         display: flex;
-        flex-wrap: wrap;       
+        flex-wrap: wrap;
+        width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;       
         
     }
 
