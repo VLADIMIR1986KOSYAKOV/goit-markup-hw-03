@@ -164,6 +164,7 @@ body {
     cursor: pointer;
     background: #F5F4FA;
     border-radius: 4px;
+    border: none;
 }
 
 .button-portfolio:hover {
@@ -260,6 +261,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     min-width: 200px;
+    border: none;
         
     }
 
@@ -404,6 +406,8 @@ body {
         padding-top: 32px;
         padding-bottom: 32px;
     }
+
+    
 
     .container-item:last-child {
         margin-right: 0;
